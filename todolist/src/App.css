@@ -3,12 +3,14 @@
   flex-direction: column;
   align-items: center;
 }
+
 .create_form input {
   width: 300px;
   padding: 10px;
   border-bottom: 2px solid;
   outline: none;
 }
+
 .create_form button {
   padding: 10px;
   background-color: black;
@@ -31,6 +33,10 @@
 .checkbox {
   display: flex;
   align-items: center;
+}
+
+.line_through {
+  text-decoration: line-through;
 }
 
 .checkbox .icon {
