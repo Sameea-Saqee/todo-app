@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useEffect } from 'react'
 import Create from './Create'
 import axios from 'axios'
+import { BsCircleFill, BsFillTrashFill } from "react-icons/bs";
 
 function Home() {
     const [todos, setTodos] = useState([])
@@ -27,11 +28,11 @@ function Home() {
                     todos.map(todo => (
                         <div className='task'>
                             <div className='checkbox' onClick={handleEdit}>
-                                {/* <BsCircleFill className='icon' /> */}
+                                <BsCircleFill className='icon' />
                                 <p>{todo.task}</p>
                             </div>
                             <div>
-                                {/* <span><BsFilTrashFill class="ion" /></span> */}
+                                <span><BsFillTrashFill class="icon" /></span>
                             </div>
                         </div>
 
