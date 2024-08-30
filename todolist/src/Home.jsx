@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useEffect } from 'react'
 import Create from './Create'
 import axios from 'axios'
-import { BsCircleFill, BsFillCheckCircleFill, BsFillTrashFill } from "react-icons/bs";
+import { BsFillCheckCircleFill, BsFillTrashFill } from "react-icons/bs";
 
 function Home() {
     const [todos, setTodos] = useState([])
